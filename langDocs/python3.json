@@ -1,0 +1,45 @@
+{
+    "langName": "python3",
+    "version": "3x",
+    "langDoc": {
+        "for": {
+            "desc": "Python’s for statement iterates over the items of any sequence (a list or a string), in the order that they appear in the sequence.",
+            "sample": [
+                "words = ['cat', 'window', 'defenestrate']",
+                "for w in words:",
+                "...print(w, len(w))"            
+                ]
+        },
+        "if": {
+            "desc": "Perhaps the most well-known statement type is the if statement.",
+            "sample": [
+                "x = 20",
+                "if x < 0:",
+                "...x = 0",
+                "...print('Negative changed to zero')",
+                "elif x == 0:",
+                "...print('Zero')",
+                "else:",
+                "...print('More')"
+            ]
+        },
+        "range": {
+            "desc": "If you do need to iterate over a sequence of numbers, the built-in function range() comes in handy. It generates arithmetic progressions:",
+            "sample": [
+                "for i in range(5):",
+                "...print(i)",
+                ">0",
+                ">1",
+                ">2",
+                ">3",
+                ">4",
+                " ",
+                "range(5, 9)",
+                "> 5 through 9",
+                " ",
+                "range(0, 10, 3)",
+                "> 0, 3, 6, 9"
+            ]
+        }
+    }
+}
