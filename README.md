@@ -6,6 +6,6 @@ She works in the terminal, just open it and type in Darya.
 
 # Currently Features.
 
-> darya date 
+> darya date   
 Sun Apr 16 13:31:22 CDT 2017
 
