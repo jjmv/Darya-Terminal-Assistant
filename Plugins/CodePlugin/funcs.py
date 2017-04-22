@@ -10,4 +10,4 @@ def python3funcs(rawCommand):
 
 def html5funcs(rawCommand):
     if rawCommand[2] == "n" or rawCommand[2] == "normal":
-        return os.system("/usr/local/bin/dlib/CodePlugin/CodeGeneratorScripts/html/normalStruct.sh " + rawCommand[3])
+        return os.system("/usr/local/bin/dlib/Plugins/CodePlugin/CodeGeneratorScripts/html/normalStruct.sh " + rawCommand[3])

@@ -1,5 +1,5 @@
-from Plugins.DocPlugin import docfuncs
-from Plugins.CodePlugin import codefuncs
+from Plugins.DocPlugin import funcs as docfuncs
+from Plugins.CodePlugin import funcs as codefuncs
 options = [
     "code", # Code generation options
     "-c", # Code generation options
