@@ -8,7 +8,7 @@ She works in the terminal, just open it and type in darya.
 
 It is really easy, by now, there is no installer but i am working in it.
 
-In order to install Darya in your machine you just need to the steps described on this
+In order to install Darya in your machine you just need to follow the steps described on this
 post of my blog.
 
 [How to install Darya](http://gogaryi.blogspot.mx/2017/04/how-to-install-darya-terminal-assistant.html)
