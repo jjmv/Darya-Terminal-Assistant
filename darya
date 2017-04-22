@@ -1,1 +1,6 @@
-python3 /usr/local/bin/dlib/main.py
+if [ $# -eq 0 ]
+  then
+    echo "Tell me what to do, Master"
+else
+  python3 /usr/local/bin/dlib/main.py
+fi
