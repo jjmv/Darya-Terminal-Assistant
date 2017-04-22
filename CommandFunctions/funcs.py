@@ -15,17 +15,17 @@ def identifyCommand(ucommand):
     cont = 0;
     for l in ucommand:
         letters.append(l)
-    
+
     for command in commandsList:
         cont = 0
         for letter in letters:
             if letter in command:
                 cont += 1
         concurency.append(cont)
-    
+
     maxCurrency = max(concurency)
     commandUsed = commandsList[concurency.index(maxCurrency)]
-    return commandUsed                 
+    return commandUsed
 
 def executeCommand(rCommand, commandFromUser):
     if(rCommand == "date"):
@@ -33,10 +33,10 @@ def executeCommand(rCommand, commandFromUser):
     if(rCommand == "calendar"):
         return os.system("cal")
     if(rCommand == "location"):
-        from LocationFunctions import locationFunctions
+        from Plugins.LocationPlugin import locationFunctions
         return locationFunctions.returnLocation()
     if(rCommand == "where am i"):
-        from LocationFunctions import locationFunctions 
+        from Plugins.LocationPlugin import locationFunctions
         return locationFunctions.returnLocation()
     if(rCommand == "py3"):
         return langfuncs.getOption("py3",commandFromUser)

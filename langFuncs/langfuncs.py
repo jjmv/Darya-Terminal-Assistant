@@ -1,5 +1,5 @@
-from docsFuncs import docfuncs
-from CodeFunctions import codefuncs
+from Plugins.DocPlugin import docfuncs
+from Plugins.CodePlugin import codefuncs
 options = [
     "code", # Code generation options
     "-c", # Code generation options
@@ -20,5 +20,4 @@ def executeOption(rawCommand):
     if (rawCommand[1] == "-w" or rawCommand[1] == "what" or rawCommand[1] == "-?"):
         return docfuncs.getDoc(rawCommand[0], rawCommand[2])
     if (rawCommand[1] == "-c" or rawCommand[1] == "code" or rawCommand[1] == "-!" ):
-        return codefuncs.switchoflags(rawCommand)
-      
+        return codefuncs.switchoflangs(rawCommand)

@@ -1,5 +1,5 @@
 import os
-def switchoflags(rawCommand):
+def switchoflangs(rawCommand):
     if rawCommand[0] == "py3":
         return python3funcs(rawCommand)
     if rawCommand[0] == "html" or rawCommand[0] == "h5":
@@ -10,6 +10,4 @@ def python3funcs(rawCommand):
 
 def html5funcs(rawCommand):
     if rawCommand[2] == "n" or rawCommand[2] == "normal":
-        return os.system("/usr/local/bin/dlib/CodeGeneratorScripts/html/normalStruct.sh " + rawCommand[3])
-    if rawCommand[2] == "angular1":
-        return os.system("/usr/local/bin/dlib/CodeGeneratorScripts/html/angular1Struct.sh" + rawCommand[3]) 
+        return os.system("/usr/local/bin/dlib/CodePlugin/CodeGeneratorScripts/html/normalStruct.sh " + rawCommand[3])
