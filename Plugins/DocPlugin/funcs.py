@@ -1,6 +1,10 @@
 import json
 import os
 
+def main(rawCommand):
+    ucommand = rawCommand.split(" ")
+    return getDoc(ucommand[1], ucommand[2])
+
 def getDoc(lang,feature):
     doc_needed = ""
     if lang == "py3":
