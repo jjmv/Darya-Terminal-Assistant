@@ -1,0 +1,13 @@
+{
+  "name": "LocationPlugin",
+  "version": "0.1.0",
+  "author": "Edgar Arroyo",
+  "contact" : "Twitter @GoGaryi",
+  "desc": "this plugin is summoned when you ask location to darya",
+  "features" : [
+    "darya location ... returns your current location",
+  ],
+  "notes": [
+    ""
+  ],
+}

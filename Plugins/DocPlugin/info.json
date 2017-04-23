@@ -1,0 +1,14 @@
+{
+  "name": "DocPlugin",
+  "version": "0.1.0",
+  "author": "Edgar Arroyo",
+  "contact" : "Twitter @GoGaryi",
+  "desc": "This plugin is summoned when you type -w next to a programming language command, DocPlugin helps you while programming returning info about certain features of a programming lang .",
+  "features" : [
+    " 'lang -w feature'...  returns information about a feature in a certain programming lang",
+    "for example 'py3 -w for' retuns info about the for in python3",
+  ],
+  "notes": [
+    "Currently only supports python3"
+  ],
+}
