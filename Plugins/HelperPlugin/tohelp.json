@@ -1,6 +1,6 @@
 {
-  "-c":"CodePlugin",
-  "-w":"DocPlugin",
+  "new":"CodePlugin",
+  "wh":"DocPlugin",
   "location":"LocationPlugin",
   "help":"HelperPlugin"
 }

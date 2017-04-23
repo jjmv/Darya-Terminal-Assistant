@@ -6,9 +6,9 @@
   "desc": "This plugin is summoned when you type -w next to a programming language command, DocPlugin helps you while programming returning info about certain features of a programming lang .",
   "features" : [
     "Python",
-    "'py3 -w for' retuns info about the for in python3",
-    "'py3 -w if' retuns info about the if statement in python3",
-    "'py3 -w range' retuns info about the range feature in python3"
+    "'darya wh py3 for' retuns info about the for in python3",
+    "'darya wh py3 if' retuns info about the if statement in python3",
+    "'darya wh py3 range' retuns info about the range feature in python3"
   ],
   "notes": [
     "Currently only supports python3"

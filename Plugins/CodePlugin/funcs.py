@@ -1,8 +1,10 @@
 import os
-def switchoflangs(rawCommand):
-    if rawCommand[0] == "py3":
+
+def main(rawCommand):
+    rawCommand = rawCommand.split(" ")
+    if rawCommand[1] == "py3":
         return python3funcs(rawCommand)
-    if rawCommand[0] == "html" or rawCommand[0] == "h5":
+    if rawCommand[1] == "html" or rawCommand[1] == "h5":
         return html5funcs(rawCommand)
 
 def python3funcs(rawCommand):

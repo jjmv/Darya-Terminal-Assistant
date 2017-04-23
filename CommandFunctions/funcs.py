@@ -45,4 +45,5 @@ def executeCommand(rCommand, commandFromUser):
         from Plugins.DocPlugin import funcs as docfuncs
         return docfuncs.main(commandFromUser)
     if(rCommand == "new"):
-        return "executed new"
+        from Plugins.CodePlugin import funcs as codefuncs
+        return codefuncs.main(commandFromUser)
