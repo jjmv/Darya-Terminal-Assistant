@@ -5,9 +5,9 @@
   "contact" : "Twitter @GoGaryi",
   "desc": "this plugin is summoned when you ask location to darya",
   "features" : [
-    "darya location ... returns your current location",
+    "darya location ... returns your current location"
   ],
   "notes": [
-    ""
-  ],
+    "nothing else"
+  ]
 }

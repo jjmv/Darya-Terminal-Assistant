@@ -42,3 +42,6 @@ def executeCommand(rCommand, commandFromUser):
         return langfuncs.getOption("py3",commandFromUser)
     if(rCommand == "html" or rCommand == "h5"):
         return langfuncs.getOption("html", commandFromUser)
+    if(rCommand == "help"):
+        from Plugins.HelperPlugin import funcs as helperfuncs
+        return helperfuncs.getHelp(commandFromUser)
