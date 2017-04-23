@@ -34,13 +34,13 @@ def executeCommand(rCommand, commandFromUser):
         return os.system("cal")
     if(rCommand == "location"):
         from Plugins.LocationPlugin import funcs as locationfuncs
-        return locationfuncs.returnLocation()
+        return locationfuncs.main()
     if(rCommand == "where am i"):
         from Plugins.LocationPlugin import funcs as locationfuncs
-        return locationfuncs.returnLocation()
+        return locationfuncs.main()
     if(rCommand == "help"):
         from Plugins.HelperPlugin import funcs as helperfuncs
-        return helperfuncs.getHelp(commandFromUser)
+        return helperfuncs.main(commandFromUser)
     if(rCommand == "wh"):
         from Plugins.DocPlugin import funcs as docfuncs
         return docfuncs.main(commandFromUser)

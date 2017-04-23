@@ -1,7 +1,7 @@
 import json
 import os
 
-def getHelp(rawCommand):
+def main(rawCommand):
     uCommand = rawCommand.split(" ")
     with open("/usr/local/bin/dlib/Plugins/HelperPlugin/tohelp.json") as data_file:
         data = json.load(data_file)

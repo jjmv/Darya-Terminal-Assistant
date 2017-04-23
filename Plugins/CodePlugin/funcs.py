@@ -2,10 +2,15 @@ import os
 
 def main(rawCommand):
     rawCommand = rawCommand.split(" ")
-    if rawCommand[1] == "py3":
-        return python3funcs(rawCommand)
-    if rawCommand[1] == "html" or rawCommand[1] == "h5":
-        return html5funcs(rawCommand)
+    try:
+        if rawCommand[1] == "py3":
+            return python3funcs(rawCommand)
+        if rawCommand[1] == "html" or rawCommand[1] == "h5":
+            return html5funcs(rawCommand)
+        else:
+            return "Master, type 'darya help new'"
+    except Exception:
+        return "Master, type 'darya help new'"
 
 def python3funcs(rawCommand):
     return "! wth python3"

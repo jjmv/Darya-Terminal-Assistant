@@ -3,7 +3,10 @@ import os
 
 def main(rawCommand):
     ucommand = rawCommand.split(" ")
-    return getDoc(ucommand[1], ucommand[2])
+    try:
+        return getDoc(ucommand[1], ucommand[2])
+    except Exception:
+        return "Master, type 'darya help wh'"
 
 def getDoc(lang,feature):
     doc_needed = ""
