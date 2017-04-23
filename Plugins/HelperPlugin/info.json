@@ -1,0 +1,13 @@
+{
+  "name": "HelperPlugin",
+  "version": "0.1.0",
+  "author": "Edgar Arroyo",
+  "contact" : "Twitter @GoGaryi",
+  "desc": "this plugin is summoned when you type help",
+  "features" : [
+    "gives you information about darya of about a command"
+  ],
+  "notes": [
+    "nothing more"
+  ]
+}

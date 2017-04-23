@@ -1,0 +1,6 @@
+{
+  "-c":"CodePlugin",
+  "-w":"DocPlugin",
+  "location":"LocationPlugin",
+  "help":"HelperPlugin"
+}
