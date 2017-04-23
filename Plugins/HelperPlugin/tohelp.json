@@ -1,5 +1,5 @@
 {
-  "new":"CodePlugin",
+  "h5-do":"H5DoPlugin",
   "wh":"DocPlugin",
   "location":"LocationPlugin",
   "help":"HelperPlugin"

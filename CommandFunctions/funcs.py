@@ -44,6 +44,6 @@ def executeCommand(rCommand, commandFromUser):
     if(rCommand == "wh"):
         from Plugins.DocPlugin import funcs as docfuncs
         return docfuncs.main(commandFromUser)
-    if(rCommand == "new"):
-        from Plugins.CodePlugin import funcs as codefuncs
-        return codefuncs.main(commandFromUser)
+    if(rCommand == "h5-do"):
+        from Plugins.H5DoPlugin import funcs as h5dofuncs
+        return h5dofuncs.main(commandFromUser)
