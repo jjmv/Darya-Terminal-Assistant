@@ -7,17 +7,17 @@ She works in the terminal, just open it and type in darya.
 # How to install it
 
 option 1:
-    clone reporsitory
-    cd into directory
-    run 'sudo sh darya_install.sh'
-    type your password
-    enjoy!
-
-option 2:
-    download darya_install2.sh
-    run 'sudo sh darya_install2.sh'
-    type your password
-    enjoy!
+ clone reporsitory  
+ cd into directory  
+ run 'sudo sh darya_install.sh'  
+ type your password  
+ enjoy!  
+  
+option 2:  
+ download darya_install2.sh  
+ run 'sudo sh darya_install2.sh'  
+ type your password  
+ enjoy!  
 
 Now darya should work, test it typing darya in your terminal
 
