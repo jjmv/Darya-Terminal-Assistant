@@ -13,11 +13,6 @@ option 1:
  -type your password  
  -enjoy!  
   
-option 2:  
- -download darya_install2.sh  
- -run 'sudo sh darya_install2.sh'  
- -type your password  
- -enjoy!  
 
 Now darya should work, test it typing darya in your terminal
 
