@@ -2,5 +2,6 @@
   "h5-do":"H5DoPlugin",
   "wh":"DocPlugin",
   "location":"LocationPlugin",
-  "help":"HelperPlugin"
+  "help":"HelperPlugin",
+  "note":"NotePlugin"
 }

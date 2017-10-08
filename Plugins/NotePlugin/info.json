@@ -1,0 +1,28 @@
+{
+  "name": "NotePlugin",
+  "version": "0.1.0",
+  "author": "René Castillo",
+  "contact" : "Twitter @Rene_Auriazul",
+  "desc": "This plugin is summoned when you type note next to an action, NotePlugin helps you to remember something later.",
+  "features" : [
+    "Create a note",
+    "'darya note create NOTE --CLASS' to create a note, if you don't type a class, it'll be 'Default'",
+    "Show the notes list",
+    "'darya note list CLASS' to view the created notes, if you don't type a class, it'll show you all of them",
+    "Edit a note",
+    "'darya note edit ID NOTE --CLASS' to edit a note with its ID, if you don't type a class, it'll be the same one",
+    "Delete a note",
+    "'darya note delete ID sure' to delete a note with its ID",
+    "Create a class",
+    "'darya note class:create CLASS' to create a class",
+    "Show the classes list",
+    "'darya note class:list' to view the created classes",
+    "Edit a class",
+    "'darya note class:edit ID CLASS' to edit a class with its ID",
+    "Delete a class",
+    "'darya note class:delete ID sure' to delete a class with its ID"
+  ],
+  "notes": [
+    "Apparently it works well"
+  ]
+}
