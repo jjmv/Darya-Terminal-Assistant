@@ -1,0 +1,12 @@
+
+Note plugin allows you to run the following commands to have control of the notes system, just type...
+
+'darya note create NOTE --CLASS' to create a note, if you don't type a class, it'll be 'Default'
+'darya note list CLASS' to view the created notes, if you don't type a class, it'll show you all of them
+'darya note edit ID NOTE --CLASS' to edit a note with its ID, if you don't type a class, it'll be the same one
+'darya note delete ID sure' to delete a note with its ID
+
+'darya note class:create CLASS' to create a class
+'darya note class:list' to view the created classes
+'darya note class:edit ID CLASS' to edit a class with its ID
+'darya note class:delete ID sure' to delete a class with its ID

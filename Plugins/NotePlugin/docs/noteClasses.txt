@@ -1,0 +1,7 @@
+ID	Class
+0	Default
+1	Warning
+2	Success
+3	Important
+4	To do
+5	Okey

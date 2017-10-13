@@ -5,7 +5,8 @@ commandsRegistered = [
     'location',
     'where am i',
     'wh',
-    'h5-do'
+    'h5-do',
+    'note'
 ]
 
 def returnCommandList():
