@@ -47,3 +47,6 @@ def executeCommand(rCommand, commandFromUser):
     if(rCommand == "h5-do"):
         from Plugins.H5DoPlugin import funcs as h5dofuncs
         return h5dofuncs.main(commandFromUser)
+    if(rCommand == "note"):
+        from Plugins.NotePlugin import funcs as notefuncs
+        return notefuncs.main(commandFromUser)
